@@ -6,3 +6,6 @@ def energia_nivel_hidrogeno():
 
     E = -13.6 / (n ** 2)
     print(f"\nEnergía del nivel n={n}: {E:.2f} eV")
+
+if __name__ == "__main__":
+    energia_nivel_hidrogeno()
